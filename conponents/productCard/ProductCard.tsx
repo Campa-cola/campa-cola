@@ -36,7 +36,7 @@ function ProductCard(props: ProductCardProps) {
             <div className={`grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-10`}>
               {props.data && props.data.map((res, index) => {
                 return <div key={index} className="shadow-black-200 rounded-lg shadow-2xl bg-[#a390e2]">
-                  <Img imgStyle={"rounded-t-lg"} image={drink2} alt={""} />
+                  <Img imgStyle={"rounded-t-lg"} image={res?.img} alt={""} />
                   <div className="p-2 text-center">
                     <h1 className="text-white font-serif">{res?.name.toUpperCase()}</h1>
                   </div>

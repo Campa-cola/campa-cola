@@ -19,7 +19,7 @@ function page() {
                     <Section type={TYPE.CONTAIN} sectionStyle=" text-center flex justify-evenly flex-col">
                         <h1 className="  font-semibold text-[5rem] font-serif text-[red]">Campa cola</h1>
                         <h1 className="  text-green-500 font-bold text-2xl">Year of Experience</h1>
-                        <h1 className="text-white font-serif font-bold text-4xl">Flavor Frenzy Ahead</h1>
+                        <h1 className="text-white font-serif font-bold text-4xl">Flavour Frenzy Ahead</h1>
                         <p className="text-white font-serif text-sm font-bold  mt-4">Taste the Variety and Explore range of delicious Campa flavorsu</p>
                     </Section>
 

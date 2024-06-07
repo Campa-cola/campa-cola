@@ -14,6 +14,8 @@ function Img(props:ImgProp) {
     <div className={`${props?.containerStyle} `}>
       <Image
           className={`${props?.imgStyle}`}
+          width={500}
+          height={500}
           src={props.image}
           alt={props.alt}
           loading='lazy'

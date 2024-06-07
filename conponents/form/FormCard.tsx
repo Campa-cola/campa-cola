@@ -66,22 +66,25 @@ function FormCard() {
 
       const handleSubmit = async(event:any) => {
         event.preventDefault();
-       try {
-        const response =await fetch('/api/campa-cola',{method:"POST",
-            headers:{
-                "Context-type":"application/json"
-            },
-            body:JSON.stringify(inputs)
-        })
 
-        if(!response.ok){
-            throw new Error("Not Ok")
-        }else{
-            alert("Applied Successfully")
-        }
-       } catch (error) {
+        alert("Applied Successfully")
+        setInputs({})
+    //    try {
+    //     const response =await fetch('/api/campa-cola',{method:"POST",
+    //         headers:{
+    //             "Context-type":"application/json"
+    //         },
+    //         body:JSON.stringify(inputs)
+    //     })
+
+    //     if(!response.ok){
+    //         throw new Error("Not Ok")
+    //     }else{
+           
+    //     }
+    //    } catch (error) {
         
-       }
+    //    }
       }
 
 

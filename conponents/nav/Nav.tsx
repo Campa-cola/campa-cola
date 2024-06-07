@@ -1,7 +1,9 @@
+
+"use client"
 import Link from 'next/link'
 import React from 'react'
 
-function Nav() {
+function Nav(props:any) {
 
   const navList = ["home", "products", "about", "contact-us"]
 
@@ -9,7 +11,12 @@ function Nav() {
     <div className='flex flex-col lg:flex-row items-baseline gap-4 lg:gap-6 font-bold text-lg'>
       {
         navList.map((res, index) => {
-          return (<Link key={index} className='group active:text-sky-600 hover:text-sky-600 transition duration-300' href={`/${res==='home'?'/':res}`}>
+          return (<Link onClick={()=>{
+
+            if(props?.setshowMenu){
+              props?.setshowMenu(false)
+            }
+          }}  key={index} className='group active:text-sky-600 hover:text-sky-600 transition duration-300' href={`/${res==='home'?'/':res}`}>
             {res.toUpperCase().split('-').join(' ')}
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-sky-600"></span>
           </Link>)

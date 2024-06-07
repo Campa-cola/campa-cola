@@ -46,7 +46,7 @@ export default function Home() {
               <h4 className="text-4xl font-serif lg:text-[2.5rem] mb-4 text-green-500">Few Reasons Why People Choosing Us!</h4>
               <p className="text-sm font-serif mb-4">Campa Cola invests heavily in its obligation to quality. The brand follows rigid quality control measures at each phase of the creation interaction to guarantee that its items fulfill the greatest guidelines. The brand utilizes state of the art innovation and gear to fabricate its drinks and leads customary quality checks to keep up with consistency in taste and quality.</p>
               <div className="mt-10">
-                <Link className="  bg-[#4681f4]  text-white w-max px-8 py-4 font-semibold text-xl rounded-lg  shadow-lg " href={"#form"}  >Get Distributorship</Link>
+                <Link className="  bg-[#4681f4] hover:bg-blue-900  text-white w-max px-8 py-4 font-semibold text-xl rounded-lg  shadow-lg " href={"#form"}  >Get Distributorship</Link>
               </div>
 
             </div>

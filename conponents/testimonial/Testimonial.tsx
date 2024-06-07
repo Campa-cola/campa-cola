@@ -23,10 +23,11 @@ function Testimonial(props:TestimonialProps) {
         </h1>
         <div className="flex gap-6 overflow-scroll  scrollbar-hide">
           {props.review.map((res, index) => {
-            return <div key={index} className="w-64 rounded-xl bg-gray-300 p-4 ">
+            return <div key={index} className="w-64 rounded-xl flex flex-col justify-between bg-gray-300 p-4 ">
               <h1 className="text-sm  ">{res.review}</h1>
               <div className="flex mt-4 items-center gap-3  ">
-                <div className="h-10 !min-w-10 rounded-full bg-slate-900">
+                <div className="h-10 !min-w-10 rounded-full font-serif font-bold text-xl flex justify-center items-center text-white bg-blue-800">
+                  <h1>{res.name.slice(0,1).toUpperCase()}</h1>
                 </div>
                 <div className="flex flex-wrap">
                   <h1 className="text-base">{res.name}</h1>

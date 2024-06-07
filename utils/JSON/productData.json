@@ -3,66 +3,66 @@
         {
             "name":"Orange",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"1"
+            "img":"https://i.postimg.cc/WbyrCr6X/5.png"
         },
         {
             "name":"Cola",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"2"
+            "img":"https://i.postimg.cc/R07HWYrD/12.png"
         },
         {
             "name":"Green Lemon",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"4"
+            "img":"https://i.postimg.cc/jSJNb5MK/7.png"
         },
         {
             "name":"Lemon",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":""
+            "img":"https://i.postimg.cc/zBqRKk8X/9.png"
         }
     ],
     "coldDrink":[
         {
             "name":"mango",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"5"
+            "img":"https://i.postimg.cc/SRv20F8J/14.png"
         },
         {
             "name":"litchi",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"6"
+            "img":"https://i.postimg.cc/Dfjb4sDn/15.png"
         },
         {
             "name":"Mixed Fruit",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"8"
+            "img":"https://i.postimg.cc/ZKXBVm4Q/17.png"
         },
         {
             "name":"Guava",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"9"
+            "img":"https://i.postimg.cc/3xpyqqwx/18.png"
         }
     ],
     "beverages":[
         {
             "name":"Lime & Lemon",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"18"
+            "img":"https://i.postimg.cc/KzQ3Ng87/10.png"
         },
         {
             "name":"Club Soda",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"19"
+            "img":"https://i.postimg.cc/Kjzksv16/13.png"
         },
         {
             "name":"Jeera Masala Soda",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"17"
+            "img":"https://i.postimg.cc/VN8SPFSB/19.png"
         },
         {
             "name":"Apple",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"15"
+            "img":"https://i.postimg.cc/Kv13PjSL/16.png"
         }
     ]
 }

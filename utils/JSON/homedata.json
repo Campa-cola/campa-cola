@@ -7,24 +7,24 @@
     },
     "products":[
         {
-            "name":"Lime & Lemon",
+            "name":"Cola",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"18"
+            "img":"https://i.postimg.cc/R07HWYrD/12.png"
         },
         {
             "name":"Club Soda",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"19"
+            "img":"https://i.postimg.cc/Kjzksv16/13.png"
         },
         {
-            "name":"Jeera Masala Soda",
+            "name":"Mango",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"17"
+            "img":"https://i.postimg.cc/SRv20F8J/14.png"
         },
         {
             "name":"Apple",
             "des":"estrytfyu ewfgw  we fgw9ef w89efg",
-            "img":"15"
+            "img":"https://i.postimg.cc/Kv13PjSL/16.png"
         }
     ],
     "slides":[
@@ -51,84 +51,39 @@
     ],
     "reviews":[
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"Rajat kumar",
+            "email":"rajatkr2673@gmail.com",
+            "review":"Campa Cola is a delicious and refreshing beverage that is perfect for any occasion. It has a unique taste that keeps you wanting more. No gathering is complete without Campa Cola. Don't miss out, order it online today!."
         },
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"Manashwani sinha",
+            "email":"sinha.manashwani@gmail.com",
+            "review":"Tastes like coke but better and at affordable price so all and all its good."
         },
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"udyan jha",
+            "email":"udyan9945@gmail.com",
+            "review":"Always used to enjoy Campa Cola as it was the most fizzy drink on the Indian market. Bah! You brought back memories of a bygone era.."
         },
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"Neeraj kumar",
+            "email":"neerajkr758@gmail.com",
+            "review":"Campa Cola is a well-known soft drink brand in India renowned for its delicious and refreshing range of beverages. The brand has a long history that goes back."
         },
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"Uttam jha",
+            "email":"uttam.jha12@gmail.com",
+            "review":"Campa Cola Co is rated 4.7 out of 5, based on 16 reviews by employees on AmbitionBox. Campa Cola Co is known for Salary & Benefits which is rated at the top."
         },
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"Dipanshu sharma",
+            "email":"dipanshu.sh@gmail.com",
+            "review":" The company is heavily discounting in-store prices. A two-litre Campa Cola bottle is priced at 49 rupees in stores, a near 50% discount."
         },
         {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        },
-        {
-            "name":"qwerty",
-            "email":"qwertyu@gmail.com",
-            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "name":"Twinkle kaur",
+            "email":"twinklekaur76200@gmail.com",
+            "review":"Tastes like coke but better and at affordable price so all and all its good.."
         }
     ],
     "faqs":[

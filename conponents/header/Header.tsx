@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Img from '../image/Image'
 import imag1 from "@/utils/assests/Campalogo.png"
 import Nav from '../nav/Nav'
@@ -9,6 +9,7 @@ import Link from 'next/link'
 
 function Header() {
   const [showMenu, setShowMenu] = useState<boolean>(false)
+  
   return (
     <Section type={TYPE.FULL} sectionStyle={'z-50 fixed top-0 eft-0 bg-white h-max lg:h-16 '} >
       <Section type={TYPE.CONTAIN} sectionStyle={'px-2 lg:flex lg:!max-w-[1280px] justify-between items-center lg:items-end bg-red'}>
@@ -33,7 +34,7 @@ function Header() {
         <div className='block lg:hidden'>
           <div className={`${showMenu === false ? 'hidden lg:bloxk' : 'block lg:hidden'}`}>
             <div className='block p-2 mr-8'>
-              <Nav />
+              <Nav setshowMenu={setShowMenu} />
             </div>
           </div>
 
