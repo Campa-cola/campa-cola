@@ -1,0 +1,71 @@
+{
+
+    "aboutus":{
+        "title":"ABOUT US",
+        "link":"/about",
+        "desc":"India no.1 soda dealership & Distributorship, around 50k+ happy clients and 1000+ active dealers."
+
+    },
+    "nav":[
+        {
+            "title":"HOME",
+            "link":"/"
+        },
+        {
+            "title":"PRODUTS",
+            "link":"/products"
+        },
+        {
+            "title":"ABOUT",
+            "link":"/about"
+        },
+        {
+            "title":"CONTACT US",
+            "link":"/contact-us"
+        }
+    ],
+    "drinks":[
+        {
+            "title":"Top drinks",
+            "link":"/products"
+        },
+        {
+            "title":"Refreshing drinks",
+            "link":"/products#refreshing"
+        },
+        {
+            "title":"Energy drinks",
+            "link":"/products"
+        },
+        {
+            "title":"Best sales drink",
+            "link":"/products"
+        }
+    ],
+    "socials":[
+        {
+            "name":"facebook",
+            "link":"/"
+        },
+        {
+            "name":"instagram",
+            "link":"/"
+        },
+        {
+            "name":"twitter",
+            "link":"/"
+        },
+        {
+            "name":"whats App",
+            "link":"/"
+        }
+    ],
+    "contatus":{
+        "mobile":"234456789",
+        "company-email":"qwertyu@gmail.com",
+        "socials":{
+            "whatsApp":"whats",
+            "insta":"insta"
+        }
+    }
+}

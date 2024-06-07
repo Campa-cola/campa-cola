@@ -1,0 +1,160 @@
+{
+    "topBar":{
+        "title":"Campa Dealership",
+        "img":"",
+        "link":"",
+        "description":"Welcome to Campa Cola - India's Favorite Soft Drink. Choose from a wide variety of Campa flavors - something sweet, tangy, or refreshing for everyone.."
+    },
+    "products":[
+        {
+            "name":"Lime & Lemon",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"18"
+        },
+        {
+            "name":"Club Soda",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"19"
+        },
+        {
+            "name":"Jeera Masala Soda",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"17"
+        },
+        {
+            "name":"Apple",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"15"
+        }
+    ],
+    "slides":[
+        {
+            "imgae1":"",
+            "text":"afhbbdsfiulsbfiuFB DFIDSBVIUWEL BUIWFBEWIUEB fdvibulsfib"
+        },
+        {
+            "imgae1":"",
+            "text":"afhbbdsfiulsbfiuFB DFIDSBVIUWEL BUIWFBEWIUEB fdvibulsfib"
+        },
+        {
+            "imgae1":"",
+            "text":"afhbbdsfiulsbfiuFB DFIDSBVIUWEL BUIWFBEWIUEB fdvibulsfib"
+        },
+        {
+            "imgae1":"",
+            "text":"afhbbdsfiulsbfiuFB DFIDSBVIUWEL BUIWFBEWIUEB fdvibulsfib"
+        },
+        {
+            "imgae1":"",
+            "text":"afhbbdsfiulsbfiuFB DFIDSBVIUWEL BUIWFBEWIUEB fdvibulsfib"
+        }
+    ],
+    "reviews":[
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        },
+        {
+            "name":"qwerty",
+            "email":"qwertyu@gmail.com",
+            "review":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+        }
+    ],
+    "faqs":[
+        {
+            "ques":"what is qwerty?",
+            "ans":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to"
+        },
+        {
+            "ques":"what is qwerty?",
+            "ans":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to"
+        },
+        {
+            "ques":"what is qwerty?",
+            "ans":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to"
+        },
+        {
+            "ques":"what is qwerty?",
+            "ans":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to"
+        },
+        {
+            "ques":"what is qwerty?",
+            "ans":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to"
+        },
+        {
+            "ques":"what is qwerty?",
+            "ans":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer to"
+        }
+    ]
+}

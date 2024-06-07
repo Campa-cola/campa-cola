@@ -1,0 +1,68 @@
+{
+    "energyDrink":[
+        {
+            "name":"Orange",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"1"
+        },
+        {
+            "name":"Cola",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"2"
+        },
+        {
+            "name":"Green Lemon",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"4"
+        },
+        {
+            "name":"Lemon",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":""
+        }
+    ],
+    "coldDrink":[
+        {
+            "name":"mango",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"5"
+        },
+        {
+            "name":"litchi",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"6"
+        },
+        {
+            "name":"Mixed Fruit",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"8"
+        },
+        {
+            "name":"Guava",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"9"
+        }
+    ],
+    "beverages":[
+        {
+            "name":"Lime & Lemon",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"18"
+        },
+        {
+            "name":"Club Soda",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"19"
+        },
+        {
+            "name":"Jeera Masala Soda",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"17"
+        },
+        {
+            "name":"Apple",
+            "des":"estrytfyu ewfgw  we fgw9ef w89efg",
+            "img":"15"
+        }
+    ]
+}

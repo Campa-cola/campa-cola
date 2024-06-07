@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+:root{
+  background: "#FAF9F6 ";
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+:root::-webkit-scrollbar{
+  display: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.bgImage{
+  background-image: linear-gradient(rgba(75, 1, 1, 0.6), rgba(0, 128, 0, 0.3)), url(../utils/assests/drink1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerBgImage{
+  background-image: linear-gradient(rgba(75, 1, 1, 0.6), rgba(0, 128, 0, 0.3)), url(../utils/assests/headerBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannerBgImage{
+  background-image: linear-gradient(rgba(75, 1, 1, 0.6), rgba(0, 128, 0, 0.3)), url(../utils/assests/campaBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+html {
+  scroll-behavior: smooth;
+ 
+}
