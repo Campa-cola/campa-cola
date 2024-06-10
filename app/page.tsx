@@ -23,16 +23,16 @@ export default function Home() {
       </Section> */}
 
       <div className="headerBgImage px-6 py-16 lg:px-12 h-max lg:h-[90vh] ">
-      <div className=" h-full flex flex-col justify-center items-center lg:items-end ">
-            <h1 className="  font-semibold text-center text-[6rem] font-serif text-[red]">Campa cola</h1>
-            <h1 className="text-green-500 text-center font-serif font-bold text-5xl">Flavour Frenzy Ahead</h1>
-            <p className="text-white  font-sans text-center text-sm font-bold lg:text-lg mt-2">Taste the Variety and Explore range of delicious Campa flavours</p>
-            <p className="text-white max-w-[600px] lg:text-xl mt-4 lg:text-right text-center font-serif text-sm font-bold  ">Welcome to Campa Cola - India's Favorite Soft Drink.
+        <div className=" h-full flex flex-col justify-center items-center  ">
+          <h1 className=" drop-shadow-2xl font-semibold text-center text-[6rem] font-serif text-[red]">Campa cola</h1>
+          <h1 className="text-green-500 drop-shadow-lg text-center font-serif font-bold text-5xl">Flavour Frenzy Ahead</h1>
+          <p className="text-white drop-shadow-lg  font-sans text-center text-sm font-bold lg:text-base mt-2">Taste the Variety and Explore range of delicious Campa flavours</p>
+          <p className="text-white drop-shadow-lg max-w-[600px] lg:text-lg mt-4  text-center font-serif text-sm font-semibold  ">Welcome to Campa Cola - India's Favorite Soft Drink.
             Choose from a wide variety of Campa flavors - something sweet, tangy, or refreshing for everyone.</p>
-            <div className="mt-10">
-                <Link className="  bg-[#4681f4] hover:bg-blue-900  text-white w-max px-8 py-4 font-semibold text-xl rounded-lg  shadow-lg " href={"#form"}  >Get Distributorship</Link>
-              </div>
+          <div className="mt-10">
+            <Link className="  bg-[#4681f4] hover:bg-blue-900  text-white w-max px-8 py-4 font-bold text-xl rounded-lg  drop-shadow-2xl " href={"#form"}  >Get Distributorship</Link>
           </div>
+        </div>
       </div>
       {/* reasons */}
       <div className="bg-white px-6 py-20">
