@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Img from '../image/Image'
 import Section, { TYPE } from '../section/Section'
 import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { RiInstagramFill } from "react-icons/ri";
 
 function Foooter() {
   return (
@@ -17,7 +17,7 @@ function Foooter() {
             <div className=' gap-3 mt-3'>
               {footerData.nav && footerData.nav.map((res, index) => {
                 return <div key={index}>
-                  - <Link className=' text-sm lg:text-base hover:text-sky-600 transition duration-300 ' href={res.link}>{res.title.toLowerCase()}</Link>
+                  - <Link className=' text-sm lg:text-base hover:text-sky-600 transition duration-300 ' href={res.link}>{res.title.toUpperCase()}</Link>
                 </div>
               })}
             </div>
@@ -27,7 +27,7 @@ function Foooter() {
             <div className=' gap-3 mt-3'>
               {footerData.drinks && footerData.drinks.map((res, index) => {
                 return <div key={index}>
-                  - <Link className=' text-sm lg:text-base hover:text-sky-600 transition duration-300' href={res.link}>{res.title.toLowerCase()}</Link>
+                  - <Link className=' text-sm lg:text-base hover:text-sky-600 transition duration-300' href={res.link}>{res.title.toUpperCase()}</Link>
                 </div>
               })}
             </div>
@@ -36,18 +36,18 @@ function Foooter() {
         </div>
 
         <div className=" mt-10 text-3xl font-bold flex gap-4 justify-center">
-          <Link href={'/'}>
+          <a href={'https://www.facebook.com/officialcampacola/'} target="_black">
             <FaFacebook />
-          </Link>
-          <Link href={'/'}>
+          </a>
+          <a href={'https://twitter.com/savecampacola?lang=en'} target="_blank">
             <FaTwitter />
-          </Link>
-          <Link href={'/'}>
+          </a>
+          <a href={'https://www.instagram.com/officialcampa/'} target="_blank">
+            <RiInstagramFill />
+          </a>
+          <a href={'https://www.youtube.com/channel/UCTbRAFMwKkFJ8MSnqn4m4eg'} target="_blank">
             <FaYoutube />
-          </Link>
-          <Link href={'/'}>
-            <FaLinkedin />
-          </Link>
+          </a>
         </div>
 
         <div className='mt-6 flex flex-col  justify-between text-center'>
@@ -56,8 +56,8 @@ function Foooter() {
             <h2 className='px-24 text-sm'>{footerData?.aboutus?.desc}</h2>
           </Link >
           <div className='mt-4'>
-            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={phoneImg} alt={''} />contact-us : {footerData.contatus.mobile}</h1>
-            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={emailImg} alt={''} />email : {footerData.contatus['company-email']}</h1>
+            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={phoneImg} alt={''} />contact-us : <a href={`tel:${footerData?.contatus?.mobile}`}>{footerData?.contatus?.mobile}</a></h1>
+            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={emailImg} alt={''} />email : <a href={`mailto:${footerData.contatus['company-email']}`}>{footerData.contatus['company-email']}</a></h1>
 
             <h1 className='mt-2 text-sm'>	&#x24B8;Copyright. All Rights Reserved</h1>
           </div>

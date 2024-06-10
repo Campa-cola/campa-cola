@@ -4,39 +4,36 @@ import ProductCard, { DIRECTION } from "@/conponents/productCard/ProductCard";
 import Section, { TYPE } from "@/conponents/section/Section";
 import Testimonial from "@/conponents/testimonial/Testimonial";
 import homeData from '@/utils/JSON/homedata.json';
+import headerImg2 from '@/utils/assests/16.png';
+import headerImg1 from '@/utils/assests/2.png';
 import drink1 from '@/utils/assests/drink1.png';
-import drink2 from '@/utils/assests/drink4.jpg';
 import Link from "next/link";
 import { FaCheck, FaUsers } from "react-icons/fa";
 import { FaRegSquareFull } from "react-icons/fa6";
-import headerImg1 from '@/utils/assests/2.png'
-import headerImg2 from '@/utils/assests/16.png'
 
 export default function Home() {
   return (
     <Section type={TYPE.FULL} sectionStyle={"bg-gray-50"}>
 
-      {/* top navHeader */}
-      <div className=" headerBgImage lg:grid grid-cols-2 h-max lg:h-[90vh] text-white">
-        <div className=" h-full lg:flex flex-col justify-evenly p-6 lg:p-12  ">
-          <h1 className="font-bold text-[3rem] mb-8 text-[red] underline underline-offset-8 font-serif">{homeData.topBar.title}</h1>
-          <p className="font-semibold text-sm lg:text-xl font-serif">{homeData?.topBar?.description}</p>
-          <div className="my-12">
-            <Link className="  bg-[#4681f4] hover:bg-blue-900 text-white w-max px-8 py-4 font-semibold text-xl rounded-lg m shadow-lg " href={"#form"}  >Apply For Distributorship</Link>
-          </div>
-        </div>
-        <div className="h-max p-2">
-          <div className="flex  gap-2">
-            <Img imgStyle={""} image={headerImg1} alt={""} />
-            <Img imgStyle={""} image={headerImg2} alt={""} />
+      {/* top-banner */}
+      {/* <Section type={TYPE.FULL} sectionStyle="headerBgImage h-[90vh]">
+        <Section type={TYPE.CONTAIN} sectionStyle="h-full">
+       
+        </Section>
+      </Section> */}
 
-          </div>
-          <div className="mt-2  ">
-            <Img imgStyle={"h-[14rem]"} image={drink1} alt={""} />
+      <div className="headerBgImage px-6 py-16 lg:px-12 h-max lg:h-[90vh] ">
+        <div className=" h-full flex flex-col justify-center items-center  ">
+          <h1 className=" drop-shadow-2xl font-semibold text-center text-[6rem] font-serif text-[red]">Campa cola</h1>
+          <h1 className="text-green-500 drop-shadow-lg text-center font-serif font-bold text-5xl">Flavour Frenzy Ahead</h1>
+          <p className="text-white drop-shadow-lg  font-sans text-center text-sm font-bold lg:text-base mt-2">Taste the Variety and Explore range of delicious Campa flavours</p>
+          <p className="text-white drop-shadow-lg max-w-[600px] lg:text-lg mt-4  text-center font-serif text-sm font-semibold  ">Welcome to Campa Cola - India's Favorite Soft Drink.
+            Choose from a wide variety of Campa flavors - something sweet, tangy, or refreshing for everyone.</p>
+          <div className="mt-10">
+            <Link className="  bg-[#4681f4] hover:bg-blue-900  text-white w-max px-8 py-4 font-bold text-xl rounded-lg  drop-shadow-2xl " href={"#form"}  >Get Distributorship</Link>
           </div>
         </div>
       </div>
-
       {/* reasons */}
       <div className="bg-white px-6 py-20">
         <Section type={TYPE.CONTAIN} sectionStyle={""} >
@@ -81,19 +78,19 @@ export default function Home() {
         <Section type={TYPE.CONTAIN} sectionStyle="">
           <div className="text-white font-bold flex gap-4 lg:gap-0 lg:flex-row flex-col justify-evenly py-16">
             <div className="text-center">
-              <h1 className="text-[3rem]">500234</h1>
+              <h1 className="text-[3rem]">500234+</h1>
               <h5 className="">Happy Clients</h5>
             </div>
             <div className="text-center">
-              <h1 className="text-[3rem]">1234</h1>
+              <h1 className="text-[3rem]">1234+</h1>
               <h5 className="">Dealers</h5>
             </div>
             <div className="text-center">
-              <h1 className="text-[3rem]">12034</h1>
+              <h1 className="text-[3rem]">12034+</h1>
               <h5 className="">Dedicated Staff</h5>
             </div>
             <div className="text-center">
-              <h1 className="text-[3rem]">1234</h1>
+              <h1 className="text-[3rem]">1234+</h1>
               <h5 className="">Awards Achieved</h5>
             </div>
           </div>
