@@ -27,7 +27,7 @@
     "drinks":[
         {
             "title":"Top drinks",
-            "link":"/products"
+            "link":"/products#top"
         },
         {
             "title":"Refreshing drinks",
@@ -35,11 +35,11 @@
         },
         {
             "title":"Energy drinks",
-            "link":"/products"
+            "link":"/products#energy"
         },
         {
             "title":"Best sales drink",
-            "link":"/products"
+            "link":"/products#top"
         }
     ],
     "socials":[
@@ -61,11 +61,8 @@
         }
     ],
     "contatus":{
-        "mobile":"234456789",
-        "company-email":"qwertyu@gmail.com",
-        "socials":{
-            "whatsApp":"whats",
-            "insta":"insta"
-        }
+        "mobile":"8745992520",
+        "company-email":"kamliyamanish014@gmail.com"
+     
     }
 }

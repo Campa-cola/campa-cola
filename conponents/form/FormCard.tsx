@@ -50,7 +50,7 @@ function FormCard() {
             name:'investment',
             lable: "Select Investment",
             placeholder: "",
-            alt: ["Select Investment", "0L to 5L", "5L to 10L", "10L-15L", "15L-20L"],
+            alt: ["Select Investment", "0L-5L", "5L-10L", "10L-15L", "15L-20L"],
         },
     ]
 
@@ -101,7 +101,7 @@ function FormCard() {
                     {formList.map((res, index) => {
                         return (
                             <div className='' key={index}>
-                                <h1 className='text-sm lg:mb-2 mt-4'>{res.lable}<span className='text-[#ff3535]' > *</span></h1>
+                                <h1 className='text-sm lg:mb-2 mt-4 lg:mt-2'>{res.lable}<span className='text-[#ff3535]' > *</span></h1>
                                 <div>
                                     {res.placeholder.length > 0 && (
                                         <input name={res.name} className='w-full h-7 border rounded  focus:outline-none focus:ring focus:ring-violet-300 bg-gray-100 p-2 text-sm' type="text" placeholder={res.placeholder} onChange={handleChange} required/>
