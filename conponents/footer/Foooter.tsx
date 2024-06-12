@@ -55,9 +55,9 @@ function Foooter() {
             <h1 className='font-bold text-xl font-serif'>{footerData?.aboutus?.title}</h1>
             <h2 className='px-24 text-sm'>{footerData?.aboutus?.desc}</h2>
           </Link >
-          <div className='mt-4'>
-            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={phoneImg} alt={''} />contact-us : <a href={`tel:${footerData?.contatus?.mobile}`}>{footerData?.contatus?.mobile}</a></h1>
-            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={emailImg} alt={''} />email : <a href={`mailto:${footerData.contatus['company-email']}`}>{footerData.contatus['company-email']}</a></h1>
+          <div className='mt-4 '>
+            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={phoneImg} alt={''} />contact-us : <a className="text-blue-600 underline underline-offset-2" href={`tel:${footerData?.contatus?.mobile}`}>{footerData?.contatus?.mobile}</a></h1>
+            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={emailImg} alt={''} />email : <a className="text-blue-600 underline underline-offset-2" href={`mailto:${footerData.contatus['company-email']}`}>{footerData.contatus['company-email']}</a></h1>
 
             <h1 className='mt-2 text-sm'>	&#x24B8;Copyright. All Rights Reserved</h1>
           </div>
