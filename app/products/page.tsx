@@ -91,19 +91,19 @@ function page() {
                 <Section type={TYPE.CONTAIN} sectionStyle="">
                     <div className="text-white font-bold flex gap-4 lg:gap-0 lg:flex-row flex-col justify-evenly py-16">
                         <div className="text-center">
-                            <h1 className="text-[3rem]">500234+</h1>
+                            <h1 className="text-[3rem]">500k+</h1>
                             <h5 className="">Happy Clients</h5>
                         </div>
                         <div className="text-center">
-                            <h1 className="text-[3rem]">1234+</h1>
+                            <h1 className="text-[3rem]">1k+</h1>
                             <h5 className="">Dealers</h5>
                         </div>
                         <div className="text-center">
-                            <h1 className="text-[3rem]">12034+</h1>
+                            <h1 className="text-[3rem]">12k+</h1>
                             <h5 className="">Dedicated Staff</h5>
                         </div>
                         <div className="text-center">
-                            <h1 className="text-[3rem]">1234+</h1>
+                            <h1 className="text-[3rem]">1k+</h1>
                             <h5 className="">Awards Achieved</h5>
                         </div>
                     </div>

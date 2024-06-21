@@ -3,7 +3,7 @@
     "aboutus":{
         "title":"ABOUT US",
         "link":"/about",
-        "desc":"India no.1 soda dealership & Distributorship, around 50k+ happy clients and 1000+ active dealers."
+        "desc":"India no.1 soda dealership & Distributorship, around 500k+ happy clients and 1k+ active dealers."
 
     },
     "nav":[
@@ -18,6 +18,14 @@
         {
             "title":"ABOUT",
             "link":"/about"
+        },
+        {
+            "title":"PRIVACY POLICY",
+            "link":"/privacy-policy"
+        },
+        {
+            "title":"TERMS & CONDITIONS",
+            "link":"/terms-conditions"
         },
         {
             "title":"CONTACT US",

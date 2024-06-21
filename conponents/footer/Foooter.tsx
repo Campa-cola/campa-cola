@@ -6,28 +6,29 @@ import Img from '../image/Image'
 import Section, { TYPE } from '../section/Section'
 import { FaFacebook, FaYoutube, FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
+import imag1 from '@/utils/assests/Campalogo.png'
 
 function Foooter() {
   return (
     <Section type={TYPE.FULL} sectionStyle={'bg-red-50 h-full  p-8'}>
       <Section type={TYPE.CONTAIN} sectionStyle='h-full'>
-        <div className=' grid grid-cols-2 gap-4 lg:flex justify-evenly  my-3'>
+        <div className=' grid grid-cols-2 gap-4 lg:flex justify-evenly  mb-3'>
           <div className=''>
-            <h1 className='lg:text-xl text-base underline underline-offset-2 relative'>Campa    <span className=" absolute  top-0 text-xs">&#9415;</span>  </h1>
-            <div className=' gap-3 mt-3'>
+            <h1 className=' text-base underline underline-offset-2 rotate- relative'><Img image={imag1} imgStyle={'h-12 rotate-12  w-20 '} alt={'campa-cola'} />     </h1>
+            <div className=' gap-3 '>
               {footerData.nav && footerData.nav.map((res, index) => {
                 return <div key={index}>
-                  - <Link className=' text-sm lg:text-base hover:text-sky-600 transition duration-300 ' href={res.link}>{res.title.toUpperCase()}</Link>
+                  - <Link className=' text-sm  hover:text-sky-600 transition duration-300 ' href={res.link}>{res.title.toUpperCase()}</Link>
                 </div>
               })}
             </div>
           </div>
-          <div className=''>
+          <div className='mt-3'>
             <h1 className='lg:text-xl text-base underline underline-offset-2'>Campa drinks</h1>
             <div className=' gap-3 mt-3'>
               {footerData.drinks && footerData.drinks.map((res, index) => {
                 return <div key={index}>
-                  - <Link className=' text-sm lg:text-base hover:text-sky-600 transition duration-300' href={res.link}>{res.title.toUpperCase()}</Link>
+                  - <Link className=' text-sm  hover:text-sky-600 transition duration-300' href={res.link}>{res.title.toUpperCase()}</Link>
                 </div>
               })}
             </div>
@@ -56,8 +57,8 @@ function Foooter() {
             <h2 className='px-24 text-sm'>{footerData?.aboutus?.desc}</h2>
           </Link >
           <div className='mt-4 '>
-            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={phoneImg} alt={''} />contact-us : <a className="text-blue-600 underline underline-offset-2" href={`tel:${footerData?.contatus?.mobile}`}>{footerData?.contatus?.mobile}</a></h1>
-            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={emailImg} alt={''} />email : <a className="text-blue-600 underline underline-offset-2" href={`mailto:${footerData.contatus['company-email']}`}>{footerData.contatus['company-email']}</a></h1>
+            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={phoneImg} alt={''} />contact-us : <a className=" underline underline-offset-2" href={`tel:${footerData?.contatus?.mobile}`}>{footerData?.contatus?.mobile}</a></h1>
+            <h1 className='flex text-sm justify-center items-center gap-2'><Img imgStyle={'h-4 w-4'} image={emailImg} alt={''} />email : <a className=" underline underline-offset-2" href={`mailto:${footerData.contatus['company-email']}`}>{footerData.contatus['company-email']}</a></h1>
 
             <h1 className='mt-2 text-sm'>	&#x24B8;Copyright. All Rights Reserved</h1>
           </div>
